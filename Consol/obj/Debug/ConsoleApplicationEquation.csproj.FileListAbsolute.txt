@@ -1,0 +1,8 @@
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Consol.exe.config
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Consol.exe
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Consol.pdb
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Equations.dll
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Equations.pdb
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\ConsoleApplicationEquation.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\Consol.exe
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\Consol.pdb

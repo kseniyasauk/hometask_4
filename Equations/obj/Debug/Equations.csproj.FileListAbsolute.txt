@@ -1,0 +1,5 @@
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\bin\Debug\Equations.dll
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\bin\Debug\Equations.pdb
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.dll
+C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.pdb

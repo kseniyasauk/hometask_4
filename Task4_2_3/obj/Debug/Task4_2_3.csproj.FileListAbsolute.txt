@@ -1,0 +1,5 @@
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_3\bin\Debug\Task4_2_3.exe.config
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_3\bin\Debug\Task4_2_3.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_3\bin\Debug\Task4_2_3.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_3\obj\Debug\Task4_2_3.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_3\obj\Debug\Task4_2_3.pdb

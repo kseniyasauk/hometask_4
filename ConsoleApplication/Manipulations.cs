@@ -16,6 +16,7 @@ namespace ConsoleApplication
 
             do
             {
+                Console.WriteLine("Input name folder: ");
                 folderName = Console.ReadLine();
             } while (string.IsNullOrEmpty(folderName));
 
@@ -80,6 +81,11 @@ namespace ConsoleApplication
         {
             string pathToFile = CreateFolder();
             CreateFile(pathToFile);
+        }
+
+        public void Read(string path)
+        {
+            string[] strings = File.ReadLines(path).Take(20).ToArray();
         }
     }
 }

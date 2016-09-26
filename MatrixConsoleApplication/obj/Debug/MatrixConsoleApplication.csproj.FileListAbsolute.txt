@@ -1,0 +1,8 @@
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\bin\Debug\MatrixConsoleApplication.exe.config
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\bin\Debug\MatrixConsoleApplication.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\bin\Debug\MatrixConsoleApplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\bin\Debug\MatrixMultiplication.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\bin\Debug\MatrixMultiplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\obj\Debug\MatrixConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\obj\Debug\MatrixConsoleApplication.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixConsoleApplication\obj\Debug\MatrixConsoleApplication.pdb

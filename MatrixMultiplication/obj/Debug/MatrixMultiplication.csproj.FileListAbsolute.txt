@@ -1,0 +1,5 @@
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixMultiplication\obj\Debug\MatrixMultiplication.csprojResolveAssemblyReference.cache
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixMultiplication\bin\Debug\MatrixMultiplication.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixMultiplication\bin\Debug\MatrixMultiplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixMultiplication\obj\Debug\MatrixMultiplication.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\MatrixMultiplication\obj\Debug\MatrixMultiplication.pdb

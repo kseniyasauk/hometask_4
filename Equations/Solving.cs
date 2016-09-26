@@ -8,7 +8,6 @@ namespace Equations
 {
     public class Solving
     {
-        
         public double SolveLinearEquation(List<double> coeffs)
         {
             double a = coeffs[0];

@@ -3,3 +3,8 @@ C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\bin\Debug\Equation
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.csprojResolveAssemblyReference.cache
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.dll
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Equations\obj\Debug\Equations.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Equations\bin\Debug\Equations.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Equations\bin\Debug\Equations.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Equations\obj\Debug\Equations.csprojResolveAssemblyReference.cache
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Equations\obj\Debug\Equations.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Equations\obj\Debug\Equations.pdb

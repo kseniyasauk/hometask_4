@@ -6,3 +6,11 @@ C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\bin\Debug\Equations.p
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\ConsoleApplicationEquation.csprojResolveAssemblyReference.cache
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\Consol.exe
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\Consol\obj\Debug\Consol.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\bin\Debug\Consol.exe.config
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\obj\Debug\Consol.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\obj\Debug\Consol.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\bin\Debug\Consol.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\bin\Debug\Consol.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\bin\Debug\Equations.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\bin\Debug\Equations.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Consol\obj\Debug\ConsoleApplicationEquation.csprojResolveAssemblyReference.cache

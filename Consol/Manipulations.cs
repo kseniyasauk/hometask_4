@@ -25,26 +25,20 @@ namespace Consol
                     string line = Console.ReadLine();
                     if (!String.IsNullOrEmpty(line))
                     {
-                        line = line.Replace(".",",");
+                        line = line.Replace(",", ".");
                     }
-                    int intNumCoeff;
-                    if (Int32.TryParse(line, out intNumCoeff))
+                    double intNumCoeff;
+                    if (double.TryParse(line, out intNumCoeff))
                     {
                         
                         ListOfLines.Add(intNumCoeff);
                         Console.WriteLine(intNumCoeff);
                     } else
                     {
-                        double doubleNumCoeff;
-                        if (Double.TryParse(line, out doubleNumCoeff))
-                        {
-                            ListOfLines.Add(doubleNumCoeff);
-                            Console.WriteLine(doubleNumCoeff);
-                        }
-                        else
-                        {
-                            Console.WriteLine("Enter correct coefficients!");
-                        }
+                        string message = "Enter correct coefficients!";
+                        Console.WriteLine(message);
+                        Logs logs = new Logs();
+                        logs.AddToList(message);
                     }
                 }
                 

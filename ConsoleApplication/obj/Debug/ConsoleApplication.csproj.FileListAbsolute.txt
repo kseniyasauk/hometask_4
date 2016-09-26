@@ -7,3 +7,9 @@ c:\users\pc\documents\visual studio 2015\Projects\HT4\ConsoleApplication\obj\Deb
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 C:\Users\PC\Documents\VisualStudio2015\Projects\HT4\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache

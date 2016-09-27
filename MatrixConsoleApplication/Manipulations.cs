@@ -9,74 +9,42 @@ using System.IO;
 
 namespace MatrixConsoleApplication
 {
-    class Manipulations
+    public class Manipulations
     {
-        //string file = ConfigurationManager.AppSettings["file"];
+        static string appSettings = ConfigurationManager.AppSettings["file"];
 
-        public void ReadAllSettings()
+        public static string[] ReadFromFile()
         {
-            try
-            {
-                var appSettings = ConfigurationManager.AppSettings;
+            
+            string[] file = File.ReadAllLines(appSettings).Skip(2).ToArray();
 
-                if (appSettings.Count == 0)
-                {
-                    Console.WriteLine("AppSettings is empty.");
-                }
-                else
-                {
-                    foreach (var key in appSettings.AllKeys)
-                    {
-                        Console.WriteLine("Key: {0} Value: {1}", key, appSettings[key]);
-                    }
-                }
-            }
-            catch (ConfigurationErrorsException)
-            {
-                Console.WriteLine("Error reading app settings");
-            }
+            return file;
         }
 
-        public string[] ReadSetting(string key)
+        public static List<int> ReadFromFileDimensions()
         {
-            string[] lines = null;
-            try
+            List<int> numbers = null; 
+            var dimensions = File.ReadAllLines(appSettings).Take(2).ToArray();
+            foreach (string dimension in dimensions)
             {
-                var appSettings = ConfigurationManager.AppSettings;
-                string result = appSettings[key] ?? "Not Found";
-
-                lines = File.ReadAllLines(result);
-                for (int i = 0; i < lines.Length; i++)
+                var dim = dimension.Split(',');
+                for (int i = 0; i < dim.Length; i++)
                 {
-                    Console.WriteLine(lines[i].ToString());
+                   numbers[i] = Int32.Parse(dim[i]);
                 }
-                return lines;
             }
-            catch (ConfigurationErrorsException)
-            {
-                Console.WriteLine("Error reading app settings");
-            }
-            return lines;
+
+            return numbers;
         }
 
-        public void ReadFile()
+        public void Start()
         {
-            String input = File.ReadAllText(@"c:\myfile.txt");
-
-            int i = 0, j = 0;
-            int[,] result = new int[10, 10];
-            foreach (var row in input.Split('\n'))
-            {
-                j = 0;
-                foreach (var col in row.Trim().Split(' '))
-                {
-                    result[i, j] = int.Parse(col.Trim());
-                    j++;
-                }
-                i++;
-            }
-            //File.OpenRead();
+            List<int> dim = ReadFromFileDimensions();
+            Matrix m1 = new Matrix(dim[0],dim[1]);
+            m1.GetMatrix();
+            Matrix m2 = new Matrix(dim[2], dim[3]);
+            m2.GetMatrix();
+            MatrixMultiplication.Multiplication.
         }
-
     }
 }

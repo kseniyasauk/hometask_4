@@ -1,0 +1,5 @@
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task3_Lib\bin\Debug\Task3_Lib.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task3_Lib\bin\Debug\Task3_Lib.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task3_Lib\obj\Debug\Task3_Lib.dll
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task3_Lib\obj\Debug\Task3_Lib.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task3_Lib\obj\Debug\Task3_Lib.csprojResolveAssemblyReference.cache

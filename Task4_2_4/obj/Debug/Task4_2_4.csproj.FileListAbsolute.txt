@@ -1,0 +1,6 @@
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\bin\Debug\Task4_2_4.exe.config
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\bin\Debug\Task4_2_4.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\bin\Debug\Task4_2_4.pdb
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\obj\Debug\Task4_2_4.csprojResolveAssemblyReference.cache
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\obj\Debug\Task4_2_4.exe
+C:\Users\Kseniya_Sauk\ht4\hometask_4\Task4_2_4\obj\Debug\Task4_2_4.pdb

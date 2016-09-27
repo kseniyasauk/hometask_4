@@ -8,9 +8,6 @@ namespace Task4_2
 {
     class Point
     {
-        private double x;
-        private double y;
-
         public double X { get; private set; } = 0.0;
         public double Y { get; private set; } = 0.0;
 

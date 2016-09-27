@@ -12,7 +12,6 @@ namespace Task4_2_3
         {
             Example ex1 = new Example();
             Example ex2 = new Example();
-            //Console.WriteLine(ex2);
             Console.WriteLine(Example.Count);
         }
     }

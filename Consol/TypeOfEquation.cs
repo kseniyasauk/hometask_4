@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Equations;
+using System.Globalization;
 
 namespace Consol
 {
@@ -11,13 +12,11 @@ namespace Consol
     {
         public void Choose()
         {
-            string coeffs;
-            int numOfCoeffs;
             Solving solve = new Solving();
             Manipulations manip = new Manipulations();
             Logs logs = new Consol.Logs();
 
-            List<double> allCoeffs;
+            List<double> allCoeffs = new List<double>();
 
             Console.WriteLine("Input 1 for 'linear' or 2 for 'quadratic'");
 
@@ -28,30 +27,49 @@ namespace Consol
                 case "1":
                     Console.WriteLine("'ax + b = 0': input 'a' and 'b'");
                     logs.AddToList(DateTime.Now + " " + "Type: linear");
-                    numOfCoeffs = 2;
-                    allCoeffs = manip.ReadLinesFromConsole(numOfCoeffs);
-                    Console.WriteLine("{0:F2}", $"Root: {solve.SolveLinearEquation(allCoeffs)}");
+
+                    double a = manip.ReadCoef("a");
+                    double b = manip.ReadCoef("b");
+
+                    allCoeffs.Add(a);
+                    allCoeffs.Add(b);
+
+                    Console.WriteLine( $"Root: {solve.SolveLinearEquation(allCoeffs).ToString("F", CultureInfo.InvariantCulture)}");
+
                     logs.AddToList(DateTime.Now + " " + solve.SolveLinearEquation(allCoeffs));
                     logs.PrintLog();
+
                     break;
                 case "2":
                     Console.WriteLine("'ax^2 + bx + c = 0': input 'a', 'b' and 'c'");
                     logs.AddToList(DateTime.Now + " " + "Type: quadratic");
-                    numOfCoeffs = 3;
-                    allCoeffs = manip.ReadLinesFromConsole(numOfCoeffs);
-                    Console.WriteLine("{0:F2}", $"Positive root: {solve.SolveQuadraticEquation(allCoeffs, true)}");
-                    Console.WriteLine("{0:F2}", $"Negative root: {solve.SolveQuadraticEquation(allCoeffs, false)}");
+
+                    a = manip.ReadCoef("a");
+                    b = manip.ReadCoef("b");
+                    double c = manip.ReadCoef("c");
+
+                    allCoeffs.Add(a);
+                    allCoeffs.Add(b);
+                    allCoeffs.Add(c);
+
+                    Console.WriteLine($"Root 1: {solve.SolveQuadraticEquation(allCoeffs, true).ToString("F", CultureInfo.InvariantCulture)}");
+                    Console.WriteLine($"Root 2: {solve.SolveQuadraticEquation(allCoeffs, false).ToString("F", CultureInfo.InvariantCulture)}");
+
                     logs.AddToList(DateTime.Now + " " + solve.SolveQuadraticEquation(allCoeffs, true) + " " + solve.SolveQuadraticEquation(allCoeffs, false));
                     logs.PrintLog();
+
                     break;
                 default:
                     Console.WriteLine("error");
+
                     logs.AddToList(DateTime.Now + " " + "Uncorrect type");
+
                     Choose();
+
                     break;
             }
         }
-
         
+
     }
 }

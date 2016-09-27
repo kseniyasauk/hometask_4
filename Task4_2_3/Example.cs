@@ -14,10 +14,6 @@ namespace Task4_2_3
         {
             Count++;
         }
-
-        //public override string ToString()
-        //{
-        //    return $"Count: {Count}";
-        //}
+        
     }
 }

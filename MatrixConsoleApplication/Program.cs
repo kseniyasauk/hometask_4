@@ -13,10 +13,7 @@ namespace MatrixConsoleApplication
         static void Main(string[] args)
         {
             Manipulations m = new Manipulations();
-            
-
-            m.ReadAllSettings();
-            m.ReadSetting("file");
+            m.ReadFromFile();
         }
     }
 }
